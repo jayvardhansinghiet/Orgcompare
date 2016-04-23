@@ -16,7 +16,7 @@ TEMPLATE_DEBUG = DEBUG
 THUMBNAIL_DEBUG = DEBUG
 
 ADMINS = (
-    ('Ben Edwards', 'ben@benedwards.co.nz'),
+    ('jay', 'jayvardhansingh.iet@gmail.com'),
 )
 
 POSTMARK_API_KEY     = os.environ.get('POSTMARK_API_KEY')
@@ -50,9 +50,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'sforgcompare.urls'
+ROOT_URLCONF = 'compareorg.urls'
 
-WSGI_APPLICATION = 'sforgcompare.wsgi.application'
+WSGI_APPLICATION = 'compareorg.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases

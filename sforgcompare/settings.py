@@ -16,7 +16,7 @@ TEMPLATE_DEBUG = DEBUG
 THUMBNAIL_DEBUG = DEBUG
 
 ADMINS = (
-    ('jay', 'jayvardhansingh.iet@gmail.com'),
+    ('jay singh', 'jayvardhansingh.iet@gmail.com'),
 )
 
 POSTMARK_API_KEY     = os.environ.get('POSTMARK_API_KEY')
